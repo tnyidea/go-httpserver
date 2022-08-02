@@ -3,11 +3,11 @@ package router
 import (
 	"context"
 	"github.com/gorilla/mux"
-	"github.com/tnyidea/httpserver/go/httpserver/request"
-	"github.com/tnyidea/httpserver/go/httpserver/response"
-	"github.com/tnyidea/httpserver/go/sample/userservice/data/models"
-	"github.com/tnyidea/httpserver/go/sample/userservice/httpserver/config"
-	"github.com/tnyidea/httpserver/go/sample/userservice/httpserver/endpoints"
+	"github.com/tnyidea/go-httpserver/request"
+	"github.com/tnyidea/go-httpserver/response"
+	"github.com/tnyidea/go-httpserver/sample/userservice/httpserver/config"
+	"github.com/tnyidea/go-httpserver/sample/userservice/httpserver/endpoints"
+	"github.com/tnyidea/go-sample-userdata/models"
 	"log"
 	"net/http"
 )

@@ -3,9 +3,9 @@ package httpserver
 import (
 	"context"
 	"github.com/gorilla/mux"
-	"github.com/tnyidea/httpserver/go/httpserver/endpoints"
-	"github.com/tnyidea/httpserver/go/httpserver/request"
-	"github.com/tnyidea/httpserver/go/httpserver/response"
+	"github.com/tnyidea/go-httpserver/endpoints"
+	"github.com/tnyidea/go-httpserver/request"
+	"github.com/tnyidea/go-httpserver/response"
 	"log"
 	"net/http"
 )

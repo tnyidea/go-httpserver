@@ -2,7 +2,7 @@ package config
 
 import (
 	"context"
-	"github.com/tnyidea/httpserver/go/sample/userservice/data/models"
+	"github.com/tnyidea/go-sample-userdata/models"
 )
 
 const UserServiceContextDatabase = "userserviceContextDatabase"

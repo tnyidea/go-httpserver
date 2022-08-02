@@ -2,7 +2,7 @@ package endpoints
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/tnyidea/httpserver/go/httpserver/response"
+	"github.com/tnyidea/go-httpserver/response"
 	"github.com/tnyidea/typeutils"
 	"log"
 	"net/http"

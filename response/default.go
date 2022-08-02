@@ -2,7 +2,7 @@ package response
 
 import (
 	"github.com/google/uuid"
-	"github.com/tnyidea/httpserver/go/httpserver/request"
+	"github.com/tnyidea/go-httpserver/request"
 	"github.com/tnyidea/typeutils"
 	"log"
 	"net/http"

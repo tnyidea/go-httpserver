@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/tnyidea/httpserver/go/httpserver"
-	"github.com/tnyidea/httpserver/go/sample/userservice/data/models"
-	"github.com/tnyidea/httpserver/go/sample/userservice/httpserver/config"
-	usersrouter "github.com/tnyidea/httpserver/go/sample/userservice/httpserver/router"
+	"github.com/tnyidea/go-httpserver"
+	"github.com/tnyidea/go-httpserver/sample/userservice/httpserver/config"
+	usersrouter "github.com/tnyidea/go-httpserver/sample/userservice/httpserver/router"
+	"github.com/tnyidea/go-sample-userdata/models"
 	"log"
 )
 
