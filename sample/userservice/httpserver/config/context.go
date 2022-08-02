@@ -10,7 +10,7 @@ const UserServiceContextDatabase = "userserviceContextDatabase"
 func NewContext() (context.Context, error) {
 	ctx := context.Background()
 
-	db, err := models.NewUserDatabase("../data/us-500.json")
+	db, err := models.NewUserDatabase("../go-sample-userdata/models/us-500.json")
 	if err != nil {
 		return nil, err
 	}
