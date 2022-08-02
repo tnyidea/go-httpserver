@@ -6,7 +6,7 @@ require (
 	github.com/google/uuid v1.3.0
 	github.com/gorilla/handlers v1.5.1
 	github.com/gorilla/mux v1.8.0
-	github.com/tnyidea/go-sample-userdata v0.0.0-20220802154501-d1a03c866d06
+	github.com/tnyidea/go-sample-userdata v0.0.1
 	github.com/tnyidea/typeutils v0.0.0
 )
 

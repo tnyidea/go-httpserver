@@ -15,8 +15,8 @@ github.com/hashicorp/go-uuid v1.0.0/go.mod h1:6SBZvOh/SIDV7/2o3Jml5SYk/TvGqwFJ/b
 github.com/hashicorp/golang-lru v0.5.0/go.mod h1:/m3WP610KZHVQ1SGc6re/UDhFvYD7pJ4Ao+sR/qLZy8=
 github.com/hashicorp/golang-lru v0.5.4 h1:YDjusn29QI/Das2iO9M0BHnIbxPeyuCHsjMW+lJfyTc=
 github.com/hashicorp/golang-lru v0.5.4/go.mod h1:iADmTwqILo4mZ8BN3D2Q6+9jd8WM5uGBxy+E8yxSoD4=
-github.com/tnyidea/go-sample-userdata v0.0.0-20220802154501-d1a03c866d06 h1:qHus2L0wOcgRD8rmeuwiHxlC+MpcE4OGy6a9jmo/DGU=
-github.com/tnyidea/go-sample-userdata v0.0.0-20220802154501-d1a03c866d06/go.mod h1:Zu9FRN+oQWLiRxXwvjXMIpd1pSql5068sGdibyejAh0=
+github.com/tnyidea/go-sample-userdata v0.0.1 h1:5nzxiNtfIbEMnxdr8QkH+D9uE8oSkcTJ3gOIK0EjF/4=
+github.com/tnyidea/go-sample-userdata v0.0.1/go.mod h1:Zu9FRN+oQWLiRxXwvjXMIpd1pSql5068sGdibyejAh0=
 github.com/tnyidea/typeutils v0.0.0 h1:tR/5ei3tFWAzo0vvGq1iuOw7u7v2ae1SgUa/jhVIzMk=
 github.com/tnyidea/typeutils v0.0.0/go.mod h1:jlLQYuj59EgIGDKduIeiERyHrqHKCxluMTaR5plOZ44=
 golang.org/x/sync v0.0.0-20220722155255-886fb9371eb4 h1:uVc8UZUe6tr40fFVnUP5Oj+veunVezqYl9z7DYw9xzw=
