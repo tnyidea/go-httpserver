@@ -55,7 +55,7 @@ func CreateUserV1(r *http.Request, db models.DB) response.DefaultResponse {
 		}
 	}
 	// TODO if requestBody.Data.Items is not a slice ....
-	dataItems := requestBody.Data.Items.([]interface{})
+	dataItems := requestBody.Data.Items.([]any)
 
 	var users []types.User
 	for _, dataItem := range dataItems {
@@ -209,7 +209,7 @@ func UpdateUserV1(r *http.Request, db models.DB) response.DefaultResponse {
 			},
 		}
 	}
-	dataItems := requestBody.Data.Items.([]interface{})
+	dataItems := requestBody.Data.Items.([]any)
 
 	var users []types.User
 	for _, dataItem := range dataItems {

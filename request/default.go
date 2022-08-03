@@ -18,13 +18,12 @@ type DefaultRequest struct {
 }
 
 type DefaultRequestData struct {
-	Id        *string     `json:"id,omitempty"`
-	FieldMask []string    `json:"fieldMask,omitempty"`
-	Items     interface{} `json:"items,omitempty"`
+	Id        *string  `json:"id,omitempty"`
+	FieldMask []string `json:"fieldMask,omitempty"`
+	Items     any      `json:"items,omitempty"`
 }
 
-func UnmarshalRequestDataItem(v interface{}, p interface{}) error {
-	// TODO should we start to use any?
+func UnmarshalRequestDataItem(v any, p any) error {
 	// TODO this is hacky.. need a better way to turn map[string]any to the type of ptr
 	b, err := json.Marshal(v)
 	if err != nil {

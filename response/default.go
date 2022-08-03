@@ -26,8 +26,8 @@ type DefaultResponseData struct {
 	Message *string `json:"message,omitempty"`
 	Details *string `json:"details,omitempty"`
 
-	Items   interface{} `json:"items,omitempty"`
-	Deleted *bool       `json:"deleted,omitempty"`
+	Items   any   `json:"items,omitempty"`
+	Deleted *bool `json:"deleted,omitempty"`
 
 	CurrentItemCount *int `json:"currentItemCount,omitempty"`
 	ItemsPerPage     *int `json:"itemsPerPage,omitempty"`

@@ -25,7 +25,7 @@ func WithHeaderContentType(w http.ResponseWriter, contentType string) http.Respo
 	return w
 }
 
-func WriteJsonResponse(w http.ResponseWriter, r *http.Request, statusCode int, v interface{}) error {
+func WriteJsonResponse(w http.ResponseWriter, r *http.Request, statusCode int, v any) error {
 	// r is not used, but included for consistency
 
 	b, err := json.MarshalIndent(v, "", "  ")
